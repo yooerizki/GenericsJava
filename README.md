@@ -1,14 +1,22 @@
-## Getting Started
+# Ganeric Class
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-## Folder Structure
+###### Struktur Data ######
+## Ganeric ##
 
-The workspace contains two folders by default, where:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
 
-## Dependency Management
+KEGIATAN 1
+Buat class generics bernama Generic yang menyimpan data menggunakan parameter Kunci (key) dan
+Nilai (value). Kemudian buat lagi kelas bernama GenericArray sehingga gambaran diagramnya akan
+tampak.
 
-The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-pack/blob/master/release-notes/v0.9.0.md#work-with-jar-files-directly).
+KEGIATAN 2
+Buat kelas generik bernama “Kubus” yang akan menyimpan nilai panjang, lebar, dan tinggi
+dengan syarat hanya menerima jenis Nomer (Numbers).
+
+Sehingga contoh inisialisasi object akan seperti berikut:
+Kubus<Double> kubusTipeDouble = new Kubus<>();
+Kubus<Integer > kubusTipeInteger = new Kubus<>();
+Kubus<String > kubusTipeString = new Kubus<>(); //error type parameter; should extend
+‘java.lang.Number’
